@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="tailwind.css" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <title>Document</title>
+    <style>
+      tr td {
+        padding-left: 0.5rem;
+      }
+      tr th {
+        padding-left: 0.5rem;
+      }
+    </style>
+  </head>
+  <body class="font-sans text-white" style="background-color: #1e2843">
+    <div class="container w-screen">
+      <div class="top-icons absolute top-3 right-8 opacity-70">
+        <a href="#" class="block"><i class="fas fa-sliders-h"></i></a>
+        <a href="#" class="block"><i class="fas fa-plus-circle"></i></a>
+        <a href="#" class="block"><i class="fas fa-sync-alt"></i></a>
+      </div>
+      <div class="flex flex-nowrap h-screen w-screen overflow-x-hidden">
+        <!-- First Half -->
+        <div
+          class="sidebar grid grid-rows-4 w-1.5/12 p-4"
+          style="background-color: #242d4a"
+        >
+          <div
+            class="
+              logo
+              flex-col
+              justify-self-center
+              grid-rows-1
+              align-middle
+              h-auto
+            "
+          >
+            <img src="/atomiclogo.svg" class="justify-self-center" alt="" />
+            <div
+              class="balance text-center m-1"
+              style="
+                background-color: rgba(174, 185, 194, 0.479);
+                border-radius: 25px;
+              "
+            >
+              <p>0.00</p>
+            </div>
+            <div class="currency text-center">
+              <p class="cursor-pointer">USD<i class="fas fa-caret-down"></i></p>
+            </div>
+          </div>
+          <!-- Menu list -->
+          <div class="list grid-rows-3 justify-self-start align-middle h-auto">
+            <ul class="leading-10 font-thin opacity-70">
+              <li style="border-left: 0.25rem solid rgba(0, 140, 255, 0.897)">
+                <a href="#"
+                  ><span class="pl-1"><i class="fas fa-wallet"></i></span>
+                  Wallet</a
+                >
+              </li>
+              <li>
+                <a href="#">
+                  <span><i class="fas fa-exchange-alt"></i></span> Exchange
+                </a>
+              </li>
+              <li>
+                <a href="#"
+                  ><span><i class="fas fa-money-check"></i></span> Buy Crypto</a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><span><i class="fas fa-history"></i></span> History</a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><span><i class="fas fa-database"></i></span> Staking</a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><span><i class="fas fa-cog"></i></span> Settings</a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><span><i class="far fa-question-circle"></i></span>
+                  Support</a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><span><i class="fas fa-power-off"></i></span> Exit</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- Second half -->
+        <div class="table col-span-1 w-11/12 bg-light-blue">
+          <table class="w-full h-screen mt-4 table-fixed">
+            <thead class="h-1/12">
+              <tr class="text-left font-sans">
+                <th class="w-1/4 font-thin opacity-70">Search....</th>
+                <th class="w-1/4 font-thin opacity-70">Balance</th>
+                <th class="w-1/12 font-thin opacity-70">Value</th>
+                <th class="w-1/12 font-thin opacity-70">Price</th>
+                <th class="w-1/12 font-thin opacity-70">24hr</th>
+                <th class="w-1/12 font-thin opacity-70">Portfolio</th>
+                <th class="w-1/6 font-medium">
+                  <i class="fas fa-long-arrow-alt-down"></i>M.cap
+                </th>
+                <th class="w-1/4 font-thin opacity-70">7-day chart</th>
+              </tr>
+            </thead>
+            <tbody class="h-11/12">
+              <tr
+                class="h-1/12 bg-light-blue"
+                style="background-color: #2d3953"
+              >
+                <td class="font-semibold">Aeterinity</td>
+                <td class="font-thin">
+                  <span class="font-semibold">0</span> AE
+                </td>
+                <td>--.--</td>
+                <td>--.--</td>
+                <td>--.--</td>
+                <td>--.--</td>
+                <td>--.--</td>
+                <td></td>
+              </tr>
+              <tr class="h-1/12">
+                <td class="font-semibold">Cardano</td>
+                <td class="font-thin">
+                  <span class="font-semibold">0</span> ADA
+                </td>
+                <td>--.--</td>
+                <td>--.--</td>
+                <td>--.--</td>
+                <td>--.--</td>
+                <td>--.--</td>
+                <td></td>
+              </tr>
+              <tr class="h-1/12" style="background-color: #2d3953">
+                <td class="font-semibold">ARK</td>
+                <td class="font-thin">
+                  <span class="font-semibold">0</span> ARK
+                </td>
+                <td>--.--</td>
+                <td>--.--</td>
+                <td>--.--</td>
+                <td>--.--</td>
+                <td>--.--</td>
+                <td></td>
+              </tr>
+              <tr class="h-1/12">
+                <td class="font-semibold">Bitcoin Diamond</td>
+                <td class="font-thin">
+                  <span class="font-semibold">0</span> BCD
+                </td>
+                <td>--.--</td>
+                <td>--.--</td>
+                <td>--.--</td>
+                <td>--.--</td>
+                <td>--.--</td>
+                <td></td>
+              </tr>
+              <tr class="h-1/12" style="background-color: #2d3953">
+                <td class="font-semibold">Bitcoin cash</td>
+                <td class="font-thin">
+                  <span class="font-semibold">0</span> BCH
+                </td>
+                <td>--.--</td>
+                <td>--.--</td>
+                <td>--.--</td>
+                <td>--.--</td>
+                <td>--.--</td>
+                <td></td>
+              </tr>
+              <tr class="h-1/12">
+                <td class="font-semibold">Binance Coin</td>
+                <td class="font-thin">
+                  <span class="font-semibold">0</span> BNB
+                </td>
+                <td>--.--</td>
+                <td>--.--</td>
+                <td>--.--</td>
+                <td>--.--</td>
+                <td>--.--</td>
+                <td></td>
+              </tr>
+              <tr class="h-1/12" style="background-color: #2d3953">
+                <td class="font-semibold">Bitcoin SV</td>
+                <td class="font-thin">
+                  <span class="font-semibold">0</span> BSV
+                </td>
+                <td>--.--</td>
+                <td>--.--</td>
+                <td>--.--</td>
+                <td>--.--</td>
+                <td>--.--</td>
+                <td></td>
+              </tr>
+              <tr class="h-1/12">
+                <td class="font-semibold">Bitcoin</td>
+                <td class="font-thin">
+                  <span class="font-semibold">0</span> BTC
+                </td>
+                <td>--.--</td>
+                <td>--.--</td>
+                <td>--.--</td>
+                <td>--.--</td>
+                <td>--.--</td>
+                <td></td>
+              </tr>
+              <tr class="h-1/12" style="background-color: #2d3953">
+                <td class="font-semibold">Bitcoin Gold</td>
+                <td class="font-thin">
+                  <span class="font-semibold">0</span> BTG
+                </td>
+                <td>--.--</td>
+                <td>--.--</td>
+                <td>--.--</td>
+                <td>--.--</td>
+                <td>--.--</td>
+                <td></td>
+              </tr>
+              <tr class="h-1/12">
+                <td class="font-semibold">Dacred</td>
+                <td class="font-thin">
+                  <span class="font-semibold">0</span> DCR
+                </td>
+                <td>--.--</td>
+                <td>--.--</td>
+                <td>--.--</td>
+                <td>--.--</td>
+                <td>--.--</td>
+                <td></td>
+              </tr>
+              <tr class="h-1/12" style="background-color: #2d3953">
+                <td class="font-semibold">Digibyte</td>
+                <td class="font-thin">
+                  <span class="font-semibold">0</span> DGB
+                </td>
+                <td>--.--</td>
+                <td>--.--</td>
+                <td>--.--</td>
+                <td>--.--</td>
+                <td>--.--</td>
+                <td></td>
+              </tr>
+              <tr class="h-1/12">
+                <td class="font-semibold">Polkadot</td>
+                <td class="font-thin">
+                  <span class="font-semibold">0</span> DOT
+                </td>
+                <td>--.--</td>
+                <td>--.--</td>
+                <td>--.--</td>
+                <td>--.--</td>
+                <td>--.--</td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <script src="/tailwind.config.js"></script>
+  </body>
+</html>
